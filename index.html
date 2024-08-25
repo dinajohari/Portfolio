@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/d0e3d89954.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header">
+        <nav>
+          <img src="pngegg.png" alt="Logo" class="logo" />
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="home">
+      <div class="container">
+        <div class="content-wrapper">
+          <div class="home-text">
+            <h1 class="wave-text">WELCOME</h1>
+            <p>
+              I'm a final year student in Bachelor of Computer Science.<br />
+              Feel free to explore my portfolio to get more insights about me!
+            </p>
+          </div>
+          <img
+            src="home.png"
+            alt="home"
+            class="round-image"
+            style="width: 300px; height: 300px"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <img
+            src="IMG_1008.jpg"
+            alt="Profile Image"
+            style="width: 200px; height: 200px"
+          />
+          <div class="about-text">
+            <h3>Hi! I'm Irdina.</h3>
+            <p>
+              Hardworking and enthusiastic College Student working towards a
+              B.S. in Computer Science. Proficient in multiple programming
+              languages, including Python, and C++. Passionate in web
+              development, software development, and data science. Committed to
+              continuous learning and adapting to evolving technology trends.
+            </p>
+            <a
+              href="https://drive.google.com/file/d/16Ox0I06ZXLB3OpshBI1gwhH_rrZCjphf/view?usp=sharing"
+              class="resume-button"
+              target="_blank"
+              >Resume ></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project">
+          <div class="card">
+            <img
+              src="sentiment-analysis.png"
+              style="width: 50px; height: 50px"
+            />
+            <p><b>Aspect Based Sentiment Classification Model (FYP)</b></p>
+          </div>
+          <div class="card">
+            <img src="right-arrow.png" style="width: 50px; height: 50px" />
+            <p><b>New project will be added if available</b></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="">
+          <h3><i class="fa-solid fa-check"></i> Selangor Islamic University</h3>
+          <p>Diploma in Computer Science</p>
+          <p><b>2017-2020</b> | Completed</p>
+          <h3>
+            <i class="fa-solid fa-check"></i> MARA University of Technology
+          </h3>
+          <p>Bachelor of Computer Science (Hons.)</p>
+          <p><b>2021-2024</b> | Pursuing</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p><i class="fa-solid fa-envelope"></i> dinajohari21@gmail.com</p>
+        <p><i class="fa-solid fa-mobile-screen"></i> +6011-5122 9403</p>
+        <a
+          href="https://www.linkedin.com/in/nur-irdina-fatini-johari-3146791ab/"
+          class="fa-brands fa-linkedin"
+          style="color: #17202a"
+          target="_blank"
+        ></a>
+        <a
+          href="twitter.com"
+          class="fa-brands fa-x-twitter"
+          style="color: #17202a"
+          target="_blank"
+        ></a>
+        <a
+          href="facebook.com"
+          class="fa-brands fa-square-facebook"
+          style="color: #17202a"
+          target="_blank"
+        ></a>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Irdina Johari. All rights reserved.</p>
+      </div>
+    </footer>
+    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <script>
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          document.getElementById("scrollToTopBtn").style.display = "block";
+        } else {
+          document.getElementById("scrollToTopBtn").style.display = "none";
+        }
+      }
+
+      function scrollToTop() {
+        document.body.scrollTop = 0; /* For Safari */
+        document.documentElement.scrollTop = 0; /* For Chrome, Firefox, IE and Opera */
+      }
+    </script>
+  </body>
+</html>
