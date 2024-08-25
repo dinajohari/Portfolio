@@ -98,7 +98,7 @@ h3 {
 }
 
 .about-text h3 {
-  color: #ae4324;
+  color: #ae4324 !important;
 }
 
 .project {
