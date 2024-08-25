@@ -97,6 +97,10 @@ h3 {
   color: #fef5e7;
 }
 
+.about-text h3 {
+  color: #ae4324;
+}
+
 .project {
   margin-bottom: 10px;
   display: flex;
